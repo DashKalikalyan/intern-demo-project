@@ -1,0 +1,38 @@
+.search-div {
+  margin-top: 100px;
+}
+.input-box-div {
+  padding:0px;
+  height:80px
+}
+
+.div-dish-list-item-detail {
+  margin-top: 50px;
+  font-size: 10px;
+  font-family: serif;
+}
+
+.div-dish-list {
+  padding:0px;
+  height:550px;
+  overflow-y:auto;
+}
+
+.div-dish-detail {
+  height:200px;
+}
+
+.search-button {
+  margin-top:24px;
+  color:white;
+  background-color:black;
+  border-radious:0px;
+  border:0px;
+}
+
+.div-meal {
+  height:320px;
+  overflow-y:auto;
+}
+
+

@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-md-9"
+    style="pointer-events:none">
+    <app-dish-item
+      [dish] = "dish">
+    </app-dish-item>
+  </div>
+  <div class="col-md-3">
+    <button
+      class="btn btn-danger remove-button"
+      (click)="onRemoveDish()">
+      Remove
+    </button>
+  </div>
+</div>
+

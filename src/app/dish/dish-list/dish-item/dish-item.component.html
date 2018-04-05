@@ -1,0 +1,11 @@
+<a  style = "cursor: pointer"
+    class="list-group-item clearfix"
+    (click)="onSelectDishItem()">
+  <div class="pull-left">
+    <h4 class="list-group-item-heading">{{dish.title}}</h4>
+    <a href="{{dish.href}}" target="_blank">{{dish.href}}</a>
+    <p class="list-group-item-text">{{dish.ingredients}}</p>
+  </div> <span class="pull-right">
+      <img class= "img-class-dish" src="{{dish.thumbnail}}" alt="{{dish.title}}">
+    </span>
+</a>
