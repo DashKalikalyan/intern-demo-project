@@ -1,5 +1,5 @@
 Important !
-In order to view our project in the CHROME browser (Preferable), you will need to download the "allow-control-allow-origin" extension.
+In order to view the project in the CHROME browser (Preferable), you will need to download the "allow-control-allow-origin" extension.
   
 If you want to run the app without "allow-control-allow-origin" extension
   Replace the existing API(present in getDishes() function of DishService class) with 'http://recipepuppyproxy.herokuapp.com/api/?q='+searchItem
